@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2a1650,50:7c3aed,100:db2777&height=200&section=header&text=ZYNOX&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Download%20Manager%20%E2%80%94%20Android%20%26%20Windows&descSize=19&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2a1650,50:7c3aed,100:db2777&height=200&section=header&text=ZYNOX&fontSize=72&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Download%20Manager%20for%20Android%20and%20Windows&descSize=19&descAlignY=58" width="100%"/>
 
 <img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="120" alt="Zynox icon"/>
 
