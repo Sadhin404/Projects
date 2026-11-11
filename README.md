@@ -1,2 +1,0 @@
-# Projects
-All projects 
