@@ -107,40 +107,48 @@ Get the latest APK from the [**Releases**](https://github.com/Sadhin404/Projects
 
 **FCUB • CSE Final Year** — *Four developers. One vision. Built with passion and innovation.*
 
-<table>
+<div align="center">
+
+<table width="100%">
 <tr>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m1.jpg" width="110" alt="Sadhin Khan"/>
-<br/><b>Sadhin Khan</b>
-<br/><sub>Main Developer</sub>
+<td align="center" width="50%">
+<br/>
+<img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m1.jpg" width="130" alt="Sadhin Khan"/>
+<br/><br/><b>Sadhin Khan</b>
+<br/><img src="https://img.shields.io/badge/Main_Developer-7C3AED?style=flat-square" height="18" alt="Main Developer"/>
+<br/><br/><a href="https://www.facebook.com/share/1GRMfN9pwh"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="22" alt="social"/></a>&nbsp;<a href="https://www.instagram.com/sadhin.404"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="22" alt="social"/></a>&nbsp;<a href="https://github.com/Sadhin404"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="22" alt="social"/></a>
 <br/><br/>
-<a href="https://www.facebook.com/share/1GRMfN9pwh"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" height="20" alt="social"/></a> <a href="https://www.instagram.com/sadhin.404"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" height="20" alt="social"/></a> <a href="https://www.tiktok.com/@sadvibess_999"><img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" height="20" alt="social"/></a> <a href="https://github.com/Sadhin404"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="20" alt="social"/></a>
 </td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m2.jpg" width="110" alt="Ali Emam Rabby"/>
-<br/><b>Ali Emam Rabby</b>
-<br/><sub>Frontend Developer</sub>
+<td align="center" width="50%">
+<br/>
+<img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m2.jpg" width="130" alt="Ali Emam Rabby"/>
+<br/><br/><b>Ali Emam Rabby</b>
+<br/><img src="https://img.shields.io/badge/Frontend_Developer-7C3AED?style=flat-square" height="18" alt="Frontend Developer"/>
+<br/><br/><a href="https://www.facebook.com/share/1E3GyCanz2"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="22" alt="social"/></a>&nbsp;<a href="https://www.instagram.com/ali.emam.rabbi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="22" alt="social"/></a>
 <br/><br/>
-<a href="https://www.facebook.com/share/1E3GyCanz2"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" height="20" alt="social"/></a> <a href="https://www.instagram.com/ali.emam.rabbi"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" height="20" alt="social"/></a> <a href="https://www.tiktok.com/@rabbi_10k"><img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" height="20" alt="social"/></a>
 </td>
 </tr>
 <tr>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m3.jpg" width="110" alt="Sristi Sorower"/>
-<br/><b>Sristi Sorower</b>
-<br/><sub>Backend Developer</sub>
+<td align="center" width="50%">
+<br/>
+<img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m3.jpg" width="130" alt="Sristi Sorower"/>
+<br/><br/><b>Sristi Sorower</b>
+<br/><img src="https://img.shields.io/badge/Backend_Developer-7C3AED?style=flat-square" height="18" alt="Backend Developer"/>
+<br/><br/><a href="https://www.facebook.com/share/1C8fXfc2j3"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="22" alt="social"/></a>&nbsp;<a href="https://www.instagram.com/sristisorower"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="22" alt="social"/></a>
 <br/><br/>
-<a href="https://www.facebook.com/share/1C8fXfc2j3"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" height="20" alt="social"/></a> <a href="https://www.instagram.com/sristisorower"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" height="20" alt="social"/></a> <a href="https://www.tiktok.com/@sristisorower0"><img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" height="20" alt="social"/></a>
 </td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m4.jpg" width="110" alt="Meharab Hosen"/>
-<br/><b>Meharab Hosen</b>
-<br/><sub>Project Manager</sub>
+<td align="center" width="50%">
+<br/>
+<img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m4.jpg" width="130" alt="Meharab Hosen"/>
+<br/><br/><b>Meharab Hosen</b>
+<br/><img src="https://img.shields.io/badge/Project_Manager-7C3AED?style=flat-square" height="18" alt="Project Manager"/>
+<br/><br/><a href="https://www.facebook.com/share/1A4nXS2xHP"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="22" alt="social"/></a>&nbsp;<a href="https://www.instagram.com/hosen.meharab"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="22" alt="social"/></a>
 <br/><br/>
-<a href="https://www.facebook.com/share/1A4nXS2xHP"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" height="20" alt="social"/></a> <a href="https://www.instagram.com/hosen.meharab"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" height="20" alt="social"/></a>
 </td>
 </tr>
 </table>
+
+</div>
 ---
 
 <div align="center">
