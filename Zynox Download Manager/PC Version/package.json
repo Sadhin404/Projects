@@ -1,0 +1,69 @@
+{
+  "dependencies": {
+    "framer-motion": "^11.11.17",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "simple-icons": "^14.15.0"
+  },
+  "description": "Zynox for Windows - fast, beautiful media downloader",
+  "devDependencies": {
+    "@electron/packager": "^18.3.6",
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^33.2.1",
+    "electron-builder": "^26.18.0",
+    "vite": "^5.4.11"
+  },
+  "main": "electron/main.cjs",
+  "name": "zynox-pc",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "pack": "npm run build && electron-packager . Zynox --platform=win32 --arch=x64 --out=release --overwrite --extra-resource=bin --icon=assets/icon.ico --app-version=6.0.0 --win32metadata.ProductName=Zynox --win32metadata.FileDescription=\"Zynox Downloader\"",
+    "start": "electron ."
+  },
+  "version": "8.3.0",
+  "build": {
+    "appId": "com.shadhinkhan.zynox",
+    "productName": "Zynox",
+    "directories": {
+      "output": "dist-setup"
+    },
+    "files": [
+      "dist/**",
+      "electron/**",
+      "assets/**",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "bin",
+        "to": "bin",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Zynox",
+      "artifactName": "Zynox-Setup-${version}.exe",
+      "uninstallDisplayName": "Zynox"
+    },
+    "protocols": [
+      {
+        "name": "Zynox Link",
+        "schemes": [
+          "zynox"
+        ]
+      }
+    ]
+  }
+}

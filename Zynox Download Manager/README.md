@@ -11,12 +11,14 @@
 ![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Version](https://img.shields.io/badge/Mobile-v81-8b5cf6?style=for-the-badge)
+![PC](https://img.shields.io/badge/PC-v8.3.0-0078D6?style=for-the-badge)
 ![Engine](https://img.shields.io/badge/Engine-yt--dlp-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ![Team](https://img.shields.io/badge/Team-Zynox-ec4899?style=for-the-badge)
 
 <br/>
 
 <a href="https://github.com/Sadhin404/Projects/releases/tag/zynox-mobile-v81"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_DOWNLOAD_THE_ANDROID_APP-v81-7C3AED?style=for-the-badge" alt="Download Zynox for Android"/></a>
+<a href="https://github.com/Sadhin404/Projects/releases/tag/zynox-pc-v8.3.0"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_DOWNLOAD_FOR_WINDOWS-v8.3.0-7C3AED?style=for-the-badge" alt="Download Zynox for Windows"/></a>
 
 **Four developers. One vision. Built with passion and innovation.**
 
@@ -128,14 +130,23 @@ Paste a link (or share it to Zynox)
 | Version | Status | Details |
 |---|---|---|
 | 📱 **Mobile Version** | ✅ **Released — v81** | Android app (Java + yt-dlp engine). Full source in [`Mobile Version/`](https://github.com/Sadhin404/Projects/tree/main/Zynox%20Download%20Manager/Mobile%20Version) · [Download the APK](https://github.com/Sadhin404/Projects/releases/tag/zynox-mobile-v81) |
-| 🖥 **PC Version** | 🚧 In testing | Windows app (Electron + React) — the same download system as the phone app. Source lands in `PC Version/` when testing completes |
+| 🖥 **PC Version** | ✅ **Released — v8.3.0** | Windows app (Electron + React) — the phone's exact download system + bundled QuickJS, with the *Zynox Download Helper* browser extension in the same release. Full source in [`PC Version/`](https://github.com/Sadhin404/Projects/tree/main/Zynox%20Download%20Manager/PC%20Version) · [Download the Setup](https://github.com/Sadhin404/Projects/releases/tag/zynox-pc-v8.3.0) |
+
+## 🖥 Zynox for Windows — highlights
+
+- 📱 **The phone's download system, A–Z** — the same single-call yt-dlp pipeline that made the Android app flawless, plus a bundled **QuickJS** runtime that solves YouTube's JS challenges (no more "This video is not available")
+- 🧩 **Browser extension included** — *Zynox Download Helper* (in the PC release as `Zynox-Extension.zip`) grabs the video playing in your browser and opens it in the app via `zynox://`
+- ⏸ **IDM-style segmented progress** with live percent, MB, speed and ETA — pause & resume included
+- 🖥 **Real installer** — per-user NSIS setup, Desktop + Start Menu shortcuts, tray support, daily silent engine updates
+
+Full details: [`PC Version/README.md`](https://github.com/Sadhin404/Projects/blob/main/Zynox%20Download%20Manager/PC%20Version/README.md)
 
 ## 📂 What's inside
 
 ```
 Zynox Download Manager/
 ├── Mobile Version/   · Android source, build scripts and full README
-├── PC Version/       · Windows source (arrives after testing)
+├── PC Version/       · Windows source (Electron app + browser extension) and full README
 └── README.md         · you are here
 ```
 

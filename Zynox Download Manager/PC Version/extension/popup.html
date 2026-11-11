@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { width: 300px; margin: 0; padding: 18px; font-family: "Segoe UI", system-ui, sans-serif; color: #ece7fb;
+    background: linear-gradient(160deg, #1d1138, #0b0618); }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 17px; letter-spacing: 1px; }
+  .brand img { width: 30px; height: 30px; border-radius: 8px; }
+  .brand small { display: block; font-size: 10.5px; font-weight: 600; color: #a79fc4; letter-spacing: 0.4px; }
+  .url { margin: 14px 0 0; padding: 9px 11px; border-radius: 10px; background: rgba(139,92,246,0.14);
+    border: 1px solid rgba(167,139,250,0.3); font-size: 11.5px; color: #cfc6ee; width: 100%; box-sizing: border-box;
+    font-family: inherit; outline: none; }
+  .url::placeholder { color: #7d739e; }
+  .url:focus { border-color: rgba(167,139,250,0.75); }
+  .note { margin: 7px 0 10px; font-size: 11px; line-height: 1.45; color: #fbbf24; min-height: 13px; }
+  button { width: 100%; padding: 12px; border: none; border-radius: 12px; cursor: pointer; color: #fff;
+    background: linear-gradient(120deg, #7c3aed, #db2777); font: 700 14px "Segoe UI", system-ui, sans-serif;
+    box-shadow: 0 10px 24px rgba(124,58,237,0.45); transition: filter 0.15s, transform 0.1s; }
+  button:hover { filter: brightness(1.12); } button:active { transform: scale(0.98); }
+  .hint { margin-top: 11px; font-size: 11px; line-height: 1.5; color: #8f86ad; }
+</style>
+</head>
+<body>
+  <div class="brand"><img src="icons/icon48.png" alt=""><div>ZYNOX<small>Download Helper</small></div></div>
+  <input class="url" id="url" type="text" spellcheck="false" autocomplete="off">
+  <div class="note" id="note"></div>
+  <button id="go">⬇ Download with Zynox</button>
+  <div class="hint">The link is filled in automatically on YouTube, Instagram and Facebook — you can edit it if it's wrong. On TikTok, paste the video's link yourself.</div>
+  <script src="popup.js"></script>
+</body>
+</html>
