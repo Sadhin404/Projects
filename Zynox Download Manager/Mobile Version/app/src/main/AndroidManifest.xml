@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.shadhinkhan.grabit" android:versionCode="81" android:versionName="4.0">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <queries>
+        <package android:name="com.google.android.youtube"/>
+        <package android:name="com.zhiliaoapp.musically"/>
+        <package android:name="com.ss.android.ugc.trill"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.pinterest"/>
+    </queries>
+    <application android:label="Zynox" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:usesCleartextTraffic="true" android:extractNativeLibs="true">
+        <activity android:name=".SplashActivity" android:exported="true" android:label="Zynox">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize"/>
+        <service android:name=".DownloadService" android:exported="false" android:foregroundServiceType="dataSync"/>
+        <activity android:name=".SettingsActivity" android:exported="false" android:label="Settings"/>
+        <activity android:name=".DownloadSettingsActivity" android:exported="false" android:label="Download settings"/>
+        <activity android:name=".DeveloperActivity" android:exported="false" android:label="Meet the Developers"/>
+        <activity android:name=".ConnectionActivity" android:exported="false" android:label="Connection"/>
+        <activity android:name=".LoginActivity" android:exported="false" android:label="Connect account (optional)"/>
+        <activity android:name=".ShareActivity" android:exported="true" android:label="Zynox Download" android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
