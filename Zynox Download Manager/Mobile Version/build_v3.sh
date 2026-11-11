@@ -48,5 +48,5 @@ cd build && zip -q -0 -r app-full.apk lib && cd ..
 
 $BT/zipalign -f -p 4 build/app-full.apk build/app-aligned.apk
 cp $HOME/workspace/todo_android/keystore.jks build/keystore.jks
-$BT/apksigner sign --ks build/keystore.jks --ks-pass pass:neon1234 --key-pass pass:neon1234 --out $HOME/workspace/your_files/DhoreFel_v31_GB.apk build/app-aligned.apk
+$BT/apksigner sign --ks build/keystore.jks --ks-pass env:KEYSTORE_PASS --key-pass env:KEY_PASS --out $HOME/workspace/your_files/DhoreFel_v31_GB.apk build/app-aligned.apk
 ls -lh $HOME/workspace/your_files/DhoreFel_v31_GB.apk

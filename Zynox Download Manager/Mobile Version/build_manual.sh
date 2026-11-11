@@ -58,6 +58,6 @@ cd build && zip -q -0 -r app-full.apk lib && cd ..
 $BT/zipalign -f -p 4 build/app-full.apk build/app-aligned.apk
 if [ ! -f $HOME/workspace/todo_android/keystore.jks ]; then echo "keystore missing"; exit 1; fi
 cp $HOME/workspace/todo_android/keystore.jks build/keystore.jks
-$BT/apksigner sign --ks build/keystore.jks --ks-pass pass:neon1234 --key-pass pass:neon1234 --out $HOME/workspace/your_files/GrabIt_v4_Remake.apk build/app-aligned.apk
+$BT/apksigner sign --ks build/keystore.jks --ks-pass env:KEYSTORE_PASS --key-pass env:KEY_PASS --out $HOME/workspace/your_files/GrabIt_v4_Remake.apk build/app-aligned.apk
 $BT/apksigner verify --print-certs $HOME/workspace/your_files/GrabIt_v4_Remake.apk | head -3
 ls -lh $HOME/workspace/your_files/GrabIt_v4_Remake.apk
