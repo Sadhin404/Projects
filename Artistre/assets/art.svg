@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#818CF8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="360" rx="24" fill="#0B0B14"/>
+  <circle cx="450" cy="158" r="150" fill="url(#glow)"/>
+
+  <!-- orbit ring -->
+  <g>
+    <ellipse cx="450" cy="158" rx="168" ry="52" fill="none" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="2"/>
+    <circle r="7" fill="#EC4899">
+      <animateMotion dur="7s" repeatCount="indefinite"
+        path="M 282,158 a168,52 0 1,0 336,0 a168,52 0 1,0 -336,0"/>
+    </circle>
+    <circle r="3" fill="#FFFFFF">
+      <animateMotion dur="7s" repeatCount="indefinite"
+        path="M 282,158 a168,52 0 1,0 336,0 a168,52 0 1,0 -336,0"/>
+    </circle>
+  </g>
+
+  <!-- the photo card, traced line by line -->
+  <g>
+    <rect x="360" y="72" width="180" height="172" rx="16" fill="url(#glass)"
+      stroke="url(#grad)" stroke-width="3" stroke-dasharray="720" stroke-dashoffset="720">
+      <animate attributeName="stroke-dashoffset" values="720;0" dur="2.2s" fill="freeze"/>
+    </rect>
+    <path d="M 382,214 L 424,158 L 452,188 L 478,146 L 518,210" fill="none"
+      stroke="#F4F4F8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"
+      stroke-dasharray="320" stroke-dashoffset="320">
+      <animate attributeName="stroke-dashoffset" values="320;0" dur="1.6s" begin="0.9s" fill="freeze"/>
+    </path>
+    <circle cx="500" cy="112" r="11" fill="#FBBF24" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.2s" fill="freeze"/>
+    </circle>
+    <!-- the pencil tip riding the stroke -->
+    <circle r="6" fill="#FFF3C4" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.36;0.96;1" dur="2.5s" begin="0.9s" fill="freeze"/>
+      <animateMotion dur="1.6s" begin="0.9s" fill="freeze"
+        path="M 382,214 L 424,158 L 452,188 L 478,146 L 518,210"/>
+    </circle>
+  </g>
+
+  <!-- the pin, bobbing -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-9; 0,0" dur="3.2s" repeatCount="indefinite"/>
+    <path d="M 450,18 c -13,0 -22,9 -22,21 c 0,15 22,33 22,33 c 0,0 22,-18 22,-33 c 0,-12 -9,-21 -22,-21 z" fill="url(#grad)"/>
+    <circle cx="450" cy="39" r="8" fill="#FFFFFF"/>
+  </g>
+
+  <text x="450" y="292" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="url(#grad)" letter-spacing="6">ARTISTRE</text>
+  <text x="450" y="326" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#B9B9C9" letter-spacing="3">
+    TRACE • LOCK • DRAW
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" repeatCount="indefinite"/>
+  </text>
+</svg>
