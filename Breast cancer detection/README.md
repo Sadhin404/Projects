@@ -1,20 +1,29 @@
-![BREAST ULTRASOUND AI](https://capsule-render.vercel.app/api?type=waving&color=0:0b2537,50:0e7490,100:7c3aed&height=200&section=header&text=BREAST%20ULTRASOUND%20AI&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Explainable%20Classification%20%E2%80%94%20EfficientNet-B3%20Ensemble%20%C2%B7%20Grad-CAM&descSize=18&descAlignY=58)
+<div align="center">
 
-![Breast Ultrasound AI — an ultrasound scan analysed with a Grad-CAM heatmap](https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/assets/art.svg)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b2537,50:0e7490,100:7c3aed&height=200&section=header&text=BREAST%20ULTRASOUND%20AI&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Explainable%20Classification%20%E2%80%94%20EfficientNet-B3%20Ensemble%20%C2%B7%20Grad-CAM&descSize=18&descAlignY=58" width="100%"/>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=Normal+%C2%B7+Benign+%C2%B7+Malignant+%E2%80%94+classified+from+one+scan;Grad-CAM+shows+exactly+where+the+model+looked;Test+accuracy+96.58%25+%C2%B7+Macro+F1+96.78%25;AI+that+supports+doctors+%E2%80%94+never+replaces+them)
+<img src="https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/assets/art.svg" width="640" alt="Breast Ultrasound AI — an ultrasound scan analysed with a Grad-CAM heatmap"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&lines=Normal+%C2%B7+Benign+%C2%B7+Malignant+%E2%80%94+classified+from+one+scan;Grad-CAM+shows+exactly+where+the+model+looked;Test+accuracy+96.58%25+%C2%B7+Macro+F1+96.78%25;AI+that+supports+doctors+%E2%80%94+never+replaces+them" alt="Typing SVG" />
+
+<br/>
 
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.14-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-
 ![Model](https://img.shields.io/badge/Model-EfficientNet--B3_Ensemble-0e7490?style=for-the-badge)
-
 ![Accuracy](https://img.shields.io/badge/Accuracy-96.58%25-7c3aed?style=for-the-badge)
 
-[![Run the notebook](https://img.shields.io/badge/%F0%9F%9A%80_RUN-THE_NOTEBOOK-0e7490?style=for-the-badge)](https://github.com/Sadhin404/Ai-ML-Deep-Learning-Project/tree/main/Breast%20Ultrasound%20Classification/model) [![Download the dataset](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_DOWNLOAD-Dataset_%28Google_Drive%29-7c3aed?style=for-the-badge)](https://drive.google.com/file/d/1YKWN9_Fv1VQwyaszvmQsk0Tcbm6ghpGh/view?usp=sharing) [![Read the thesis paper](https://img.shields.io/badge/%F0%9F%93%84_READ-THE_THESIS_PAPER-334155?style=for-the-badge)](https://github.com/Sadhin404/Ai-ML-Deep-Learning-Project/tree/main/Breast%20Ultrasound%20Classification/paper) [![Live website](https://img.shields.io/badge/%F0%9F%8C%90_LIVE_WEBSITE-Try_it_now-059669?style=for-the-badge)](https://sadhin404-breast-ultrasound-ai.static.hf.space) [![Mobile app](https://img.shields.io/badge/%F0%9F%93%B1_MOBILE_APP-Download_APK-2563eb?style=for-the-badge)](https://github.com/Sadhin404/Projects/releases/tag/breast-cancer-detection-v1.0.0)
+<br/>
+
+<a href="https://github.com/Sadhin404/Ai-ML-Deep-Learning-Project/blob/main/Breast%20Ultrasound%20Classification/model/Breast_Ultrasound_Classification.ipynb"><img src="https://img.shields.io/badge/%F0%9F%9A%80_RUN-THE_NOTEBOOK-0e7490?style=for-the-badge" alt="Run the notebook"/></a>
+<a href="https://drive.google.com/file/d/1YKWN9_Fv1VQwyaszvmQsk0Tcbm6ghpGh/view?usp=sharing"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_DOWNLOAD-Dataset_%28Google_Drive%29-7c3aed?style=for-the-badge" alt="Download the dataset"/></a>
+<a href="https://github.com/Sadhin404/Ai-ML-Deep-Learning-Project/tree/main/Breast%20Ultrasound%20Classification/paper"><img src="https://img.shields.io/badge/%F0%9F%93%84_READ-THE_THESIS_PAPER-334155?style=for-the-badge" alt="Read the thesis paper"/></a>
+<a href="https://sadhin404-breast-ultrasound-ai.static.hf.space"><img src="https://img.shields.io/badge/%F0%9F%8C%90_LIVE_WEBSITE-Try_it_now-059669?style=for-the-badge" alt="Live website"/></a>
+<a href="https://github.com/Sadhin404/Projects/releases/tag/breast-cancer-detection-v1.0.0"><img src="https://img.shields.io/badge/%F0%9F%93%B1_MOBILE_APP-Download_APK-2563eb?style=for-the-badge" alt="Mobile app"/></a>
 
 **A final-year thesis project — an AI second reader for breast ultrasound, with an explanation for every decision.**
+
+</div>
 
 ---
 
@@ -38,7 +47,7 @@ The trained ensemble is deployed as a web app: upload a breast ultrasound scan a
 
 **▶ Short link: [is.gd/BreastUltrasoundAI](https://is.gd/BreastUltrasoundAI)** — the same live site, short enough to type or say out loud
 
-All the website code and details live in the **[Website/](https://github.com/Sadhin404/Ai-ML-Deep-Learning-Project/tree/main/Breast%20Ultrasound%20Classification/Website)** folder of the project repository:
+All the website code and details live in the **[Website/](https://github.com/Sadhin404/Ai-ML-Deep-Learning-Project/tree/main/Breast%20Ultrasound%20Classification/Website)** folder:
 
 - `Website/static-app/` — the version running live on Hugging Face (in-browser ONNX ensemble)
 - `Website/gradio-app/` — an earlier Gradio version
@@ -69,35 +78,46 @@ The same ensemble also runs as a **native Android app** — this folder holds it
 
 Only **4 of 117** test images were misclassified — and most importantly, **not a single malignant case was dismissed as Normal**. The four errors: one benign scan read as malignant, and three malignant scans read as benign.
 
-![Confusion matrix](https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/confusion_matrix.png) ![ROC curves](https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/roc_curve.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/confusion_matrix.png" width="46%" alt="Confusion matrix"/>
+<img src="https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/roc_curve.png" width="46%" alt="ROC curves"/>
+</div>
 
-![Per-class precision, recall and F1](https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/per_class_performance.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/per_class_performance.png" width="62%" alt="Per-class precision, recall and F1"/>
+</div>
 
-![The four misclassified test images with their confidences](https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/misclassified_images.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/misclassified_images.png" width="88%" alt="The four misclassified test images with their confidences"/>
+</div>
 
 ## 🔬 Explainability — Grad-CAM
 
-![Grad-CAM: original scan, heatmap and overlay for each class](https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/gradcam_comparison.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/gradcam_comparison.png" width="88%" alt="Grad-CAM: original scan, heatmap and overlay for each class"/>
+</div>
 
 For correct predictions the heatmaps sit on the lesion itself — the same place a radiologist would look. Incorrect predictions were analysed with Grad-CAM too, to see *where the model went wrong*. A heatmap is a sensitivity map, not clinical proof — the thesis states this limitation openly.
 
-![Accuracy journey — from the single-model baseline to the ensemble](https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/accuracy_journey.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/accuracy_journey.png" width="62%" alt="Accuracy journey — from the single-model baseline to the ensemble"/>
+</div>
 
 ## 🧠 How it works
 
 ```
 Ultrasound image (BUSI)
-        │
-        ▼
+      │
+      ▼
 Preprocessing — resize 224×224 · normalise · (training only: augmentation)
-        │
-        ▼
+      │
+      ▼
 EfficientNet-B3 × 3 — ImageNet-pretrained, fine-tuned end to end (seeds 42 · 7 · 123)
-        │
-        ▼
+      │
+      ▼
 Probabilities averaged → 3-class prediction + confidence
-        │
-        ▼
+      │
+      ▼
 Grad-CAM heatmap — the explanation
 ```
 
@@ -111,7 +131,9 @@ Grad-CAM heatmap — the explanation
 
 ## 📦 The dataset — BUSI
 
-![Dataset distribution](https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/dataset_distribution.png)
+<div align="center">
+<img src="https://raw.githubusercontent.com/Sadhin404/Ai-ML-Deep-Learning-Project/main/Breast%20Ultrasound%20Classification/results/dataset_distribution.png" width="62%" alt="Dataset distribution"/>
+</div>
 
 **780 real images** — Normal 133 · Benign 437 · Malignant 210 — collected at Baheya Hospital, Egypt (Al-Dhabyani et al., *Data in Brief*, 2020). The 798 ground-truth **mask** files are excluded from classification (they are annotations, not scans). One published quirk — a byte-identical image pair carrying two different labels — is documented, not hidden.
 
@@ -131,20 +153,20 @@ Grad-CAM heatmap — the explanation
 
 ```
 Breast Ultrasound Classification/
-├── assets/            ← the original single-model code, the run guide & README artwork
-│   ├── dataset.py model.py train.py
+├── assets/              ← the original single-model code, the run guide & README artwork
+│   ├── dataset.py  model.py  train.py
 │   ├── evaluate.py predict.py gradcam.py
 │   ├── requirements.txt
-│   ├── HOW_TO_RUN.md  ← step-by-step, error-proof run guide
+│   ├── HOW_TO_RUN.md    ← step-by-step, error-proof run guide
 │   └── art.svg
-├── model/             ← the training notebook + the original checkpoint
-│   ├── Breast_Ultrasound_Classification.ipynb  ← the full ensemble pipeline — run this in Colab
-│   └── best_model.pth ← the original single-model (EfficientNet-B0) checkpoint
-├── paper/             ← the full thesis paper (PDF)
-├── slide/             ← the defence presentation (PPTX — clickable demo links)
-├── results/           ← metrics, figures, Grad-CAM panels, split indices
-├── dataset/           ← about the BUSI dataset
-└── Website/           ← the live web app (3 versions)
+├── model/               ← the training notebook + the original checkpoint
+│   ├── Breast_Ultrasound_Classification.ipynb   ← the full ensemble pipeline — run this in Colab
+│   └── best_model.pth   ← the original single-model (EfficientNet-B0) checkpoint
+├── paper/               ← the full thesis paper (PDF)
+├── slide/               ← the defence presentation (PPTX — clickable demo links)
+├── results/             ← metrics, figures, Grad-CAM panels, split indices
+├── dataset/             ← about the BUSI dataset
+└── Website/             ← the live web app (3 versions)
 ```
 
 ## ⚠️ Limitations — stated honestly
@@ -155,24 +177,29 @@ Breast Ultrasound Classification/
 
 ## 👨‍💻 Author
 
-![Shadhin Khan](https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m1.jpg) **MD. Shadhin Khan**
+<div align="center">
 
-Student ID: 0572310005101003
+<img src="https://raw.githubusercontent.com/Sadhin404/Projects/main/Zynox%20Download%20Manager/Mobile%20Version/app/src/main/res/drawable-nodpi/dev_m1.jpg" width="130" alt="Shadhin Khan"/>
 
-Department of Computer Science & Engineering
+**MD. Shadhin Khan**
+<br/>Student ID: 0572310005101003
+<br/>Department of Computer Science & Engineering
+<br/>First Capital University of Bangladesh, Chuadanga
+<br/>**Supervisor:** Md. Rashed Billah, Lecturer, CSE
+<br/>**Co-Supervisor:** Nurunnahar Tisha, Lecturer, CSE
 
-First Capital University of Bangladesh, Chuadanga
+<br/><a href="https://www.facebook.com/share/1GRMfN9pwh"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="22" alt="Facebook"/></a>&nbsp;<a href="https://www.instagram.com/sadhin.404"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="22" alt="Instagram"/></a>&nbsp;<a href="https://github.com/Sadhin404"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="22" alt="GitHub"/></a>
 
-**Supervisor:** Md. Rashed Billah, Lecturer, CSE
-
-**Co-Supervisor:** Nurunnahar Tisha, Lecturer, CSE
-
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1GRMfN9pwh) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/sadhin.404) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sadhin404)
+</div>
 
 ---
+
+<div align="center">
 
 *Built to be understood — every number in this README comes from the saved outputs of the official run, and every step can be reproduced from the notebook.*
 
 © 2026 Shadhin Khan • Explainable Breast Ultrasound Classification
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0b2537,50:0e7490,100:7c3aed&height=110&section=footer)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b2537,50:0e7490,100:7c3aed&height=110&section=footer" width="100%"/>
+
+</div>
